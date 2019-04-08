@@ -19,6 +19,7 @@
         <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> 
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -51,6 +52,7 @@
                     <p><a id="info"></a>A warm welcome and a cosy bedroom await you at our B&#x26;B which is perfectly located in the charming rural village of Mezzano, mid-way along the scenic Primiero valley with its backdrop of the majestic Dolomite range &#x2013; Pale di San Martino (UNESCO World Heritage Site). It is set in a peaceful sunny position just above the old village, it has a lovely garden and an idyllic terrace which commands spectacular views of the surrounding mountains.</p> 
 <p>Though our home is a recently built eco-home, it is built in the local Alpine style but also has a slight Englishness. It is only 4 mins walk down to the centre of Mezzano (part of the association &#x201C;Borghi piu&#x2019; Belli d&#x2019;Italia&#x201D;), and an ideal place to base yourself to explore the magnificent mountains and maybe some of the historic cities of the northern Italian plains.</p>
  
+			    <h2>Reviews</h2>
 <div class="reviews">
   <div>M&amp;J – Carmarthenshire - UK – July 2016<br />
 Fabulous house with great views, a perfect launching place for exploring the area. The house is
@@ -205,7 +207,12 @@ Wash basin, shower, WC, 2 towels per pers., toilet paper, liquid soap.</p>
           <script type="text/javascript">
     $(document).ready(function(){
       $('.reviews').slick({
-      });
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+});
     });
   </script>
 
